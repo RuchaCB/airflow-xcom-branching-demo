@@ -1,9 +1,9 @@
-⚡ Airflow XCom + Branching DAG
+##⚡ Airflow XCom + Branching DAG
 This project demonstrates the use of XComs, Branching, and Trigger Rules in Apache Airflow to control the DAG flow based on runtime conditions dynamically. Only one of the downstream tasks (t2 or t3) will execute based on the branching logic — the other will be skipped automatically. A final task (t4) runs if either path completes successfully.
 
 ---
 
-🔧 Features
+##🔧 Features
 Uses PythonOperator to push and pull data via XComs
 Utilizes BranchPythonOperator to make a runtime decision
 Executes a specific downstream task based on branching logic
